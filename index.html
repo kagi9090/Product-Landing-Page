@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <title>Landing Page</title>
+</head>
+<body>
+    <header id="header" class="header">
+        <img src="images/logo.jpg" alt="" id="header-img"> 
+        <nav class="nav-bar" id="nav-bar">
+            <ul class="nav-group">
+                <li><a href="#home"  class="nav-link">Home</a></li>
+                <li><a class="nav-link" href="#featured">Featured</a></li>
+                <li><a class="nav-link" href="#our-product">Our Product</a></li>
+                <li><a class="nav-link" href="#about-us">About Us</a></li>
+            </ul>
+        </nav>       
+    </header>
+
+    <main>
+        <div class="home hero" id="home">
+            <iframe id="video" class="youtube"  src="https://www.youtube.com/embed/m6YTge3JxiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+            <h2 class="Title">The Best Guitar Shop There Is</h2>
+            <h3>Subscribe for more'</h3>
+            <form class="form" id="form" action="">
+                <input type="email" name="email" id="email" placeholder="Enter your email"><br>
+                <input type="submit" id="submit" name="submit-button" form="#form" value="Let's Get Started" class="btn">
+            </form>
+        </div>
+
+        <article id="featured">
+            <h2 class="title-featured">Featured Product</h2>
+            <ul class="featured-row">
+                <li class="featured-item">
+                    <a href="" class="featured-circle">
+                        <img class="featured-img" src="images/image-4.png" alt="">
+                    </a>
+                    <p>
+                        <span class="pricing">$99</span>TEST
+                    </p>
+                </li>
+                <li class="featured-item">
+                    <a href="" class="featured-circle">
+                        <img class="featured-img" src="images/image-2.png" alt="">
+                    </a>
+                    <p>
+                        <span class="pricing">$99</span>TEST
+                    </p>
+                </li>
+                <li class="featured-item">
+                    <a href="" class="featured-circle">
+                        <img class="featured-img" src="images/image-1.png" alt="">
+                    </a>
+                    <p>
+                        <span class="pricing">$99</span>TEST
+                    </p>
+                </li>
+            </ul>
+
+        </article>
+        <article id="our-product"><h2>Under Construction</h2></article>
+        <article id="about-us"><h2>Under Construction</h2></article>
+
+    </main>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

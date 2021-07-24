@@ -1,0 +1,212 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    color: darkgreen;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    background-color: #060D0D;
+    position: fixed;
+    top: 0;
+    box-shadow: -3px 8px 70px 3px rgba(73,255,24,0.19);
+-webkit-box-shadow: -3px 8px 70px 3px rgba(73,255,24,0.19);
+-moz-box-shadow: -3px 8px 70px 3px rgba(73,255,24,0.19);
+}
+
+#header-img {
+    height: 60px;
+    width: 100%;
+    max-width: 100px;
+}
+
+.nav-bar {
+    width: 100%;
+    justify-self: end;
+}
+
+.nav-group {
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+}
+
+@media (max-width: 430px) {
+    .nav-bar {
+        display: none;
+    }
+}
+
+.nav-link {
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 400;
+    padding: auto 20px;
+    
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+    color: #FFFFFF;
+    background-color: ff37;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    box-shadow: -3px 8px 70px 3px rgba(73,255,24,0.19);
+-webkit-box-shadow: -3px 8px 70px 3px rgba(73,255,24,0.19);
+-moz-box-shadow: -3px 8px 70px 3px rgba(73,255,24,0.19);
+}
+
+.home {
+    width: 100%;
+    height: 720px;
+    margin-top: 60pxpx;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(../images/home-background.jpg), radial-gradient(#444, #111);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.youtube {
+    margin: 10px;
+    padding: 15px ;
+    height: 360px;
+    width: 440px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Title {
+    font-size: 2rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#email {
+    height: 35px;
+    width: 300px;
+}
+.btn {
+    background: #ff37;
+    box-shadow: 5px 8px 43px -24px rgba(21,197,41,0.71);
+-webkit-box-shadow: 5px 8px 43px -24px rgba(21,197,41,0.71);
+-moz-box-shadow: 5px 8px 43px -24px rgba(21,197,41,0.71);
+    height: 30px;
+    max-width: 150px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    color: #FFFFFF;
+    background-color: ff37;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    box-shadow: -3px 8px 70px 3px rgba(73,255,24,0.19);
+-webkit-box-shadow: -3px 8px 70px 3px rgba(73,255,24,0.19);
+-moz-box-shadow: -3px 8px 70px 3px rgba(73,255,24,0.19);
+}
+
+#featured {
+    width: 100%;
+    height: auto;
+    color: white;
+    background: rgb(189,156,127);
+background: radial-gradient(circle, rgba(189,156,127,1) 0%, rgba(55,48,48,1) 87%);
+    padding-top: 30px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-featured {
+    text-align: center;
+}
+
+.featured-row {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+@media (max-width: 430px) {
+    .featured-row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.featured-item {
+    text-align: center;
+    margin: 1em 2em;
+}
+
+
+.featured-img {
+    width: 100%;
+    height: auto;
+    max-width: 120px;
+    background: rgba( 247, 251, 245, 0.05 );
+box-shadow: 0 8px 32px 0 rgba(10, 14, 65, 0.37);
+backdrop-filter: blur( 1.5px );
+-webkit-backdrop-filter: blur( 1.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.featured-item:hover {
+    transform: scale(1.1);
+}
+
+.featured-img:hover {
+    box-shadow: -3px 8px 70px 3px rgba(73,255,24,0.19);
+-webkit-box-shadow: -3px 8px 70px 3px rgba(73,255,24,0.19);
+-moz-box-shadow: -3px 8px 70px 3px rgba(73,255,24,0.19);
+
+}
+
+#our-product, #about-us {
+    width: 100%;
+    height: 600px;
+    background-color: greenyellow;
+}
+
+#about-us {
+    background-color: grey;
+}
